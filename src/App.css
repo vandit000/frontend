@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Global scrollbar styles */
+* {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #4a5568 #edf2f7; /* Thumb and track color */
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+*::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #edf2f7; /* Track color */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4a5568; /* Scrollbar thumb color */
+  border-radius: 6px; /* Rounded corners */
+  border: 2px solid #edf2f7; /* Space around thumb */
+}
